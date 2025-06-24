@@ -105,7 +105,7 @@ pip install -r requirements.txt
 ## 👨‍💻 Author
 
 **Arin Talavadekar**  
-[Connect with me on LinkedIn](https://www.linkedin.com/in/arin-talavadekar)
+[Connect with me on LinkedIn](https://www.linkedin.com/in/arin-talavadekar-92b947241/)
 
 
 
