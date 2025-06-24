@@ -31,15 +31,6 @@ The goal is to uncover behavioural patterns and deliver actionable insights for 
 
 ---
 
-### 📌 Average Profitability by Sentiment  
-
-> Profitability improves progressively from **Extreme Fear** to **Extreme Greed**.  
-> Greed phases deliver the highest PnL outcomes.
-
-![PnL by Sentiment](Images/pnl_by_sentiment.png)
-
----
-
 ### 📌 Win Rate by Sentiment  
 
 | Sentiment       | Win Rate (%) |
@@ -58,7 +49,7 @@ The goal is to uncover behavioural patterns and deliver actionable insights for 
 
 > Buy trades outperform during **Greed**, while Sell trades perform relatively better in **Fear**.
 
-![Directional Profitability](Images/avg_pnl_of_side.pngg)
+![Directional Profitability](Images/avg_pnl_of_side.png)
 
 ---
 
@@ -108,4 +99,8 @@ The goal is to uncover behavioural patterns and deliver actionable insights for 
 ```bash
 git clone https://github.com/Arin-Talavadekar/Trader-Behavior-Insights.git
 cd Trader-Behavior-Insights
+pip install -r requirements.txt
+
+
+
 
