@@ -101,6 +101,12 @@ git clone https://github.com/Arin-Talavadekar/Trader-Behavior-Insights.git
 cd Trader-Behavior-Insights
 pip install -r requirements.txt
 
+```
+## 👨‍💻 Author
+
+**Arin Talavadekar**  
+[Connect with me on LinkedIn](https://www.linkedin.com/in/arin-talavadekar)
+
 
 
 
