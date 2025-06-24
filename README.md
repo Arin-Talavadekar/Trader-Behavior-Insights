@@ -1,9 +1,9 @@
-# 📊 Trader Behavior vs Market Sentiment Analysis
+# 📊 Trader Behaviour vs Market Sentiment Analysis
 
 ## 📑 Overview
-This repository contains an exploratory data analysis (EDA) examining the relationship between trader performance and market sentiment using historical Hyistorical data and Bitcoin's Fear-Greed Index.
+This repository contains an exploratory data analysis (EDA) examining the relationship between trader performance and market sentiment using historical data and Bitcoin's Fear-Greed Index.
 
-The goal is to uncover behavioral patterns and deliver actionable insights for sentiment-aware trading strategies.
+The goal is to uncover behavioural patterns and deliver actionable insights for sentiment-aware trading strategies.
 
 ---------
 ## 📊 Datasets Used
@@ -27,16 +27,16 @@ The goal is to uncover behavioral patterns and deliver actionable insights for s
 
 > Most trades happen during **Fear** phases, indicating heightened activity in adverse markets.
 
-![Sentiment Distribution](images/sentiment_distribution.png)
+![Sentiment Distribution](Images/no_of_trades_by_side_and_sentiments.png)
 
 ---
 
 ### 📌 Average Profitability by Sentiment  
 
 > Profitability improves progressively from **Extreme Fear** to **Extreme Greed**.  
-> Greed phases deliver highest PnL outcomes.
+> Greed phases deliver the highest PnL outcomes.
 
-![PnL by Sentiment](images/pnl_by_sentiment.png)
+![PnL by Sentiment](Images/pnl_by_sentiment.png)
 
 ---
 
@@ -58,20 +58,20 @@ The goal is to uncover behavioral patterns and deliver actionable insights for s
 
 > Buy trades outperform during **Greed**, while Sell trades perform relatively better in **Fear**.
 
-![Directional Profitability](images/directional_profitability.png)
+![Directional Profitability](Images/avg_pnl_of_side.pngg)
 
 ---
 
 ### 📌 Fee Impact on Profitability  
 
 > Fee-to-PnL ratio spikes in `Neutral` and `Fear` phases — indicating overtrading and thin margins during uncertain sentiment.
-
+![Fee Impact on Profitability ](Images/avg_fee_to_pnl_ratio.png)
 ---
 
 ### 📌 Cumulative PnL Over Time  
 
 > **PnL trends upward during Greed phases** and clusters losses in `Extreme Fear`.
-
+![ Cumulative PnL Over Time ](Images/cum_pnl_over_time.png)
 ---
 
 ## 📊 Statistical Test (T-Test)
@@ -89,7 +89,7 @@ The goal is to uncover behavioral patterns and deliver actionable insights for s
 
 > Profitable trades cluster mid-week during Greed, while weekend trades tend to perform poorly under `Extreme Fear`.
 
-![Heatmap PnL](images/heatmap_dow_by_sentiment.png)
+![Heatmap PnL](Images/heatmap_dow_by_sentiment.png)
 
 ---
 
@@ -98,7 +98,7 @@ The goal is to uncover behavioral patterns and deliver actionable insights for s
 - Integrate Fear-Greed Index into trading models.
 - Increase trade size and risk during `Greed` phases.
 - Reduce activity during weekends and `Extreme Fear`.
-- Monitor fee-to-PnL ratio during volatile market moods.
+- Monitor the fee-to-PnL ratio during volatile market moods.
 
 ---
 
